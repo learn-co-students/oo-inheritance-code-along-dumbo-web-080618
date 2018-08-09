@@ -1,3 +1,17 @@
 class Vehicle
+  attr_accessor :wheel_size, :wheel_number
+
+  def initialize (wheel_size, number)
+    @wheel_size = wheel_size
+    @number = number
+  end
+
+  def go
+    'vrrrrrrrooom!'
+  end
+  # Vehicle #fill_up_tank returns 'filling up!'
+  def fill_up_tank
+    'filling up!'
+  end
 
 end
